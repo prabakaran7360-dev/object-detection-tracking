@@ -1,67 +1,102 @@
-# 🎯 Real-Time Object Detection and Tracking using OpenCV
+# 🧠 Object Detection and Tracking System
 
-## 📌 Project Description
-This project is a real-time object detection and tracking system built using Python and OpenCV. It detects objects based on color and tracks their movement using a webcam.
+## 📌 Overview
+
+This project is a **real-time Object Detection and Tracking system** built using Computer Vision and AI techniques.
+It detects objects from live video or webcam feed and tracks them with unique IDs.
 
 ---
 
 ## 🚀 Features
-- 🎨 Color-based object detection (HSV)
-- 📍 Real-time object tracking
-- 🔄 Direction detection (LEFT, RIGHT, FRONT, STOP)
-- 🎥 Live webcam feed processing
+
+* 🎯 Real-time object detection
+* 🔄 Object tracking with unique IDs
+* 📷 Works with webcam / video input
+* ⚡ Fast and efficient processing
+* 🧠 AI-based detection model
 
 ---
 
-## 🛠️ Technologies Used
-- Python
-- OpenCV
-- NumPy
-- Imutils
+## 🛠️ Tech Stack
+
+* Python 🐍
+* OpenCV 👁️
+* NumPy
+* YOLO / Pre-trained Model
 
 ---
 
-## ⚙️ How It Works
-1. Captures video from webcam  
-2. Converts frames to HSV color space  
-3. Applies color mask  
-4. Detects object using contours  
-5. Tracks object position  
-6. Displays movement direction  
+## 📂 Project Structure
+
+```
+object-detection-tracking/
+│
+├── main.py
+├── tracker.py
+├── model/
+├── utils/
+├── output/
+├── requirements.txt
+└── README.md
+```
+
+---
+
+## ⚙️ Installation
+
+```bash
+git clone https://github.com/prabakaran7360-dev/object-detection-tracking.git
+cd object-detection-tracking
+pip install -r requirements.txt
+```
 
 ---
 
 ## ▶️ How to Run
 
-### Step 1: Install dependencies
-pip install opencv-python numpy imutils
-
-### Step 2: Run the program
-python object_detection.py
+```bash
+python main.py
+```
 
 ---
 
-## 📸 Output
-- Detects colored object  
-- Draws circle around object  
-- Shows direction (LEFT / RIGHT / FRONT / STOP)  
+## 📷 Output
+
+👉 Add screenshots here (VERY IMPORTANT)
+
+* Detection output
+* Tracking IDs
+* Video frames
 
 ---
 
-## 📌 Applications
-- 🤖 Robotics  
-- 🚗 Automation  
-- 🎮 Gesture control  
-- 🧠 Computer Vision  
+## 📊 Use Cases
+
+* 🚗 Traffic monitoring
+* 🛡️ Security surveillance
+* 🏬 Retail analytics
+* 🤖 AI automation
 
 ---
 
 ## 🔮 Future Improvements
-- Multi-object tracking  
-- Higher accuracy using AI/ML  
-- GUI interface  
+
+* Improve accuracy
+* Add GUI
+* Deploy as web app
+* Cloud integration
 
 ---
 
-## 👨‍💻 Author
-Prabakaran
+## 🙋‍♂️ Author
+
+**Prabakaran**
+
+* 🔗 GitHub: https://github.com/prabakaran7360-dev
+* 🔗 LinkedIn: https://www.linkedin.com/in/prabakaran19
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
