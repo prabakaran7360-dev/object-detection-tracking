@@ -3,12 +3,11 @@ import imutils
 import numpy as np
 
 # HSV range (yellow/green range, not pure red)
-lower1 = (0, 0, 200)
-upper1 = (90, 40, 255)
+lower1 = (0, 120, 70)
+upper1 = (10, 255, 255)
 
-lower2 = (91, 0, 200)
-upper2 = (180, 40, 255)
-
+lower2 = (170, 120, 70)
+upper2 = (180, 255, 255)
 camera = cv2.VideoCapture(1)
 
 while True:
